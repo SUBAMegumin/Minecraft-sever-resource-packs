@@ -1,0 +1,24 @@
+name: Publish resource pack
+on:
+  push:
+    tags:
+      - 'infernal-hud-*'
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify assets
+        working-directory: packs
+        run: |
+          sha256sum --check SHA256SUMS.txt
+          sha1sum --check SHA1SUMS.txt
+          python -c "import zipfile; z=zipfile.ZipFile('infernal-hud-1.6.0-b18d3191.zip'); assert z.testzip() is None; assert 'pack.mcmeta' in z.namelist()"
+      - name: Publish release with intact ZIP
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: |
+          gh release create "$RELEASE_TAG" packs/*.zip packs/SHA1SUMS.txt packs/SHA256SUMS.txt --verify-tag --title "$RELEASE_TAG" --notes-file docs/release-notes.md
