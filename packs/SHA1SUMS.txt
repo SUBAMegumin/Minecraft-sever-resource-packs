@@ -1,1 +1,2 @@
 b18d319153f92bd0294e715734d1db131c1a2ad8  infernal-hud-1.6.0-b18d3191.zip
+f1b55019a88fdeb73fc40cf6548bbc77fbd5f271  infernal-hud-1.6.3-f1b55019.zip

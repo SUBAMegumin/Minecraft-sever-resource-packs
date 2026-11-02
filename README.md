@@ -4,7 +4,11 @@
 
 AI接手先读 [AGENTS.md](AGENTS.md) 和 [发布规划](PLANS.md)。
 
-## Infernal HUD 1.6.0
+## 最新：Infernal HUD 1.6.3
+
+[下载顶部血条资源包](https://github.com/SUBAMegumin/Minecraft-sever-resource-packs/releases/download/infernal-hud-1.6.3/infernal-hud-1.6.3-f1b55019.zip)，配套Infernal 1.6.3。SHA1 `f1b55019a88fdeb73fc40cf6548bbc77fbd5f271`。
+
+## 历史：Infernal HUD 1.6.0
 
 适配Minecraft Java 1.20.1，pack_format=15；用于Infernal资源包HUD，客户端无需安装Infernal模组。
 

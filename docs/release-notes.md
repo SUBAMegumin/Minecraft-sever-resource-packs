@@ -1,11 +1,11 @@
-# Infernal HUD 1.6.0
+# Infernal HUD 1.6.3
 
-Minecraft Java 1.20.1服务器资源包，包含12款Infernal HUD美术资源；无需客户端Infernal模组。与Infernal 1.6.x资源包HUD配套。
+适配Minecraft Java 1.20.1与Infernal 1.6.3顶部Boss栏。无需客户端Infernal模组。旧1.6.0包仅适用于旧动作栏布局。
 
-下载Release附件 `infernal-hud-1.6.0-b18d3191.zip`，不要使用GitHub自动生成的Source code ZIP。
+下载附件infernal-hud-1.6.3-f1b55019.zip，不要使用Source code ZIP。
 
-SHA1: `b18d319153f92bd0294e715734d1db131c1a2ad8`
-SHA256: `8abe55f187badde1831e91b181506486fb6c96f4b8adea399c7dd0bc272aa025`
-大小: 892110字节。
+SHA1: f1b55019a88fdeb73fc40cf6548bbc77fbd5f271
+SHA256: 9e40bb4983092f861a8be668b62e104f13acb15b715ef98a90750aa2b0e4aa5a
+大小: 679036字节。
 
-游戏需要接受服务器资源包；拒绝时使用原版回退。下载失败需检查真实客户端日志与网络，不能把代理路径验证当游戏直连验证。
+固定链接：https://github.com/SUBAMegumin/Minecraft-sever-resource-packs/releases/download/infernal-hud-1.6.3/infernal-hud-1.6.3-f1b55019.zip
